@@ -32,3 +32,26 @@ console.log(myObj);
 const myFunc = function(){
     console.log("hello world")
 }
+//************************* */
+
+//Stack memory(primitive), Heap(Non-primitive)
+
+let myYoutubeName = "SomnathYoutubeChannel"
+
+let anothername = myYoutubeName
+
+anothername = "superman"
+console.log(anothername)
+console.log(myYoutubeName)
+
+let userOne ={
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne 
+userTwo.email = "xyz@google.com"
+console.log(userOne.email)
+console.log(userTwo.email)
+
+
